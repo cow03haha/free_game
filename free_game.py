@@ -1,7 +1,7 @@
 import requests
 import json
 
-webhook_url = 'https://discord.com/api/webhooks/908350313357017110/9DMd7YF3V4YQMChKo1kCZ2DF2D6ItD3fOPyhXutYOuPz745gf1G8NJmtcq-8JuBYc3Wk'
+webhook_url = 'your webhook url'
 url = 'https://www.4gamers.com.tw/site/api/news/by-tag?tag=限時免費&nextStart=0&pageSize=5'
 response = requests.get(url)
 
